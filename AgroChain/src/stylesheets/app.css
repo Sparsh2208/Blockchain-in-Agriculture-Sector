@@ -1,0 +1,183 @@
+/* Reset default styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  /* Typography */
+  body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background: url('background-image.jpg') no-repeat center center fixed; /* Add your background image here */
+	background-size: cover; /* Ensure the image covers the entire background */
+  }
+  
+  /* Header */
+  header {
+	background-color: #6fd8f5; /* Light blue header background */
+	padding: 20px 0;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+  }
+  
+  h1 {
+	font-size: 28px;
+	margin-bottom: 0;
+  }
+  
+  /* Public ID & Balance */
+  .white {
+	color: #f3cdcd; /* Change color for Public ID to white */
+  }
+  
+  /* Button Bar */
+  .btn-group {
+	display: flex;
+	justify-content: center; /* Center buttons */
+	align-items: center;
+	padding: 10px 20px;
+	background-color: #da7777; /* Optional background color */
+  }
+  
+  .btn1 {
+	background-color: #fad4d4;
+	border: 1px solid #cccccc;
+	color: #333;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+	margin: 0 5px; /* Add spacing between buttons */
+  }
+  
+  .btn1.active {
+	background-color: #e89292;
+	border-color: #ccc;
+  }
+  
+  /* Forms */
+  .form {
+	background-color: rgba(0, 0, 0, 0.5); /* Black translucent background */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow for better look */
+	border: 1px solid rgba(0, 0, 0, 0.2); /* Add a translucent black border to the form */
+	border-radius: 10px;
+	padding: 20px;
+	margin: 20px auto; /* Center forms with margin */
+	max-width: 600px; /* Limit the maximum width */
+	display: none; /* Initially hide all forms */
+  }
+  
+  .form h2 {
+	font-size: 24px;
+	margin-bottom: 15px;
+	color: #fff; /* White text for better readability */
+  }
+  
+  .form input,
+  .form button {
+	width: calc(100% - 22px); /* Adjust width for padding and border */
+	padding: 10px;
+	border: none; /* Remove solid border for a cleaner look */
+	border-radius: 4px;
+	font-size: 16px;
+	margin-bottom: 10px;
+	background-color: rgba(0, 0, 0, 0.3); /* Black translucent background */
+	color: #fff; /* White text for inputs */
+	box-shadow: inset 0 0 0px 1px rgba(255, 255, 255, 0.1); /* Add subtle inset shadow */
+	border: 1px solid rgba(255, 255, 255, 0.2); /* Add border to inputs */
+  }
+  
+  .form input:focus {
+	outline: none; /* Remove default outline on focus */
+	box-shadow: inset 0 0 0px 2px rgba(255, 255, 255, 0.3); /* Add white focus shadow */
+  }
+  
+  .btn-submit {
+	background-color: #074045;
+	color: #fff; /* White text for buttons */
+	border: none;
+	padding: 12px 20px;
+	font-size: 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn-submit:hover {
+	background-color: #13809a;
+  }
+  
+  .current-balance,
+  .black { /* Combine styling for labels and balance */
+	color: #fff;
+	font-weight: bold;
+  }
+  
+  /* Tables */
+  table {
+	border-collapse: collapse; /* Ensure table borders collapse */
+	width: 100%; /* Display table across full width */
+	margin-bottom: 15px;
+  }
+  
+  th, td {
+	padding: 5px 10px;
+	border: 1px solid rgba(255, 255, 255, 0.2); /* Translucent white border */
+	text-align: left;
+  }
+  
+  /* Status Message */
+  #status {
+	margin-top: 10px;
+	font-style: italic;
+	color: #fff; /* White text for status */
+  }
+  
+  .error {
+	color: red;
+	font-size: 14px;
+	margin-bottom: 10px;
+  }
+  
+  /* Block & Transaction Buttons */
+  .btn-selector {
+	margin: 5px; /* Add spacing between buttons */
+  }
+  
+  /* Responsive Design (optional) */
+  @media screen and (max-width: 768px) {
+	.btn-group {
+	  flex-wrap: wrap; /* Wrap buttons on smaller screens */
+	}
+  
+	.form {
+	  max-width: 90%; /* Adjust form width */
+	}
+  }
+  
+  .blockclass {
+	font-weight: bold;
+	margin-right: 10px; /* Add spacing after label */
+  }
+  
+  .blocknum {
+	color: #fff;
+  }
+  
+  .btn-submit1 {
+	background-color: #28a745; /* Green color for approval */
+	color: #fff; /* White text */
+	padding: 15px 30px; /* Adjust padding if needed */
+	font-size: 18px; /* Increase font size for emphasis */
+	margin-top: 20px; /* Add top margin */
+	border-radius: 5px;
+  }
+  
+  .btn-submit1:hover {
+	background-color: #218c3d;
+  }
+  
