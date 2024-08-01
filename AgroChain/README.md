@@ -80,7 +80,7 @@ The micro-finance form enables any user to fund a farmer. The funding is done by
 
 # About Us
 
-We are a group of researchers based at Indian Institute Of Information Technology and Management - Kerala
+We are a group of 4 members of KLE Technological University - Hubli, Karnataka, India
 
-Website/Contact : http://agrochain.in/
+
 
